@@ -25,7 +25,7 @@ const About = () => {
       <h1>Hello!</h1>
       <div className='line'></div>
       <section>
-        <img src={portrait} alt='head shot' />
+        <img src={portrait} alt='head shot' className='headshot'/>
         <p>I'm a software developer with a current focus on Front End Technologies with React and JavaScript. I am currently learning NodeJS, MySQL and MongoDB to work towards a fullstack skillset. In my spare time I enjoy running, playing tennis, hiking, and learning about geography and history. I love programming because it allows you to bring new ideas to fruition and having the mindset of always learning and growing in your life.</p>
       </section>
     </motion.div>

@@ -1,0 +1,45 @@
+@import '../../styles/colors.scss', '../../styles/mixins.scss';
+
+.about {
+	height: 500px;
+	@include flex-box;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	h1 {
+		color: $light-grey;
+	}
+
+
+	img {
+		width: 50vw;
+		margin: 10px;
+	}
+
+	p {
+		padding: 0 25px;
+		line-height: 1.25;
+		color: $light-grey;
+	}
+}
+
+@media screen and (min-width: 620px) {
+	.about {
+
+		img {
+			width: 275px;
+		}
+
+		p {
+			width: 50%;
+		}
+
+		section {
+			max-width: 1000px;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			margin-top: 40px;
+		}
+	}
+}

@@ -1,0 +1,64 @@
+@import '../../styles/colors.scss', '../../styles/mixins.scss';
+
+.contact {
+	height: 350px;
+
+	img {
+		width: 100px;
+	}
+
+	h1 {
+		color: $light-grey;
+	}
+
+	h2 {
+		font-size: 18px;
+		font-weight: 700;
+		margin: 20px;
+		color: $light-grey;
+	}
+
+	section {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 20px;
+	}
+
+	a {
+		color: $light-grey;
+
+		&:hover {
+			color: $dark-green;
+		}
+	}
+
+	button {
+		color: $lime-green;
+		font-size: 1em;
+		background: transparent;
+		border-radius: 50px;
+		border: 3px solid $lime-green;
+		cursor: pointer;
+	}
+
+	.button-contact {
+		color: $lime-green;
+		font-size: 1em;
+		background: transparent;
+		border-radius: 50px;
+		border: none;
+		cursor: pointer;
+	}
+	
+}
+
+
+@media screen and (min-width: 550px) {
+	.contact {
+		section {
+			max-width: 600px;
+			margin: 20px auto;
+		}
+	}
+}

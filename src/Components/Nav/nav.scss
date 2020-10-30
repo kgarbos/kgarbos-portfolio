@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss', '../../styles/mixins.scss';
+
+nav {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+
+	li {
+		&:hover {
+			color: $dark-green;
+			cursor: pointer;
+		}
+
+		&:active {
+			color: $light-grey;
+		}
+	}
+}

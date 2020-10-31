@@ -43,6 +43,7 @@ const Contact = () => {
         <motion.button
           variants={buttonVariants}
           whileHover="hover"
+          title="Email"
         >
           <a href='mailto:kjgarbos@gmail.com'><h2>kjgarbos@gmail.com</h2></a>
         </motion.button>
@@ -53,6 +54,7 @@ const Contact = () => {
           className='button-contact'
           variants={buttonVariants}
           whileHover="hover"
+          title="Linkedin Profile"
         >
           <a href='https://www.linkedin.com/in/kgarbos/' target="_blank" rel='noopener noreferrer'>
               <img src={linkedinicon} alt='link to linkedin'/>
@@ -63,6 +65,7 @@ const Contact = () => {
           className='button-contact'
           variants={buttonVariants}
           whileHover="hover"
+          title="Github Profile"
         >
           <a href='https://github.com/kgarbos' target="_blank" rel='noopener noreferrer'> 
               <img src={githubicon} alt='link to github'/>
@@ -73,6 +76,7 @@ const Contact = () => {
           className='button-contact'
           variants={buttonVariants}
           whileHover="hover"
+          title="Resume"
         >
           <a href={resume} target="_blank" rel='noopener noreferrer'> 
               <img src={resumeicon} alt='link to resume'/>

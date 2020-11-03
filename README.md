@@ -1,4 +1,4 @@
-This is my personal portfolio project which was made with [Create React App](https://github.com/facebook/create-react-app). 
+This is my personal portfolio project which was made using React, Javascript, Css/Sass and the Framer Motion API.
 
 Link: https://kgarbos.com/
 

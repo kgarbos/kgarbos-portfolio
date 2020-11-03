@@ -1,4 +1,4 @@
-This is my personal portfolio project created using [Create React App](https://github.com/facebook/create-react-app). 
+This is my personal portfolio project which was made with [Create React App](https://github.com/facebook/create-react-app). 
 
 Link: https://kgarbos.com/
 

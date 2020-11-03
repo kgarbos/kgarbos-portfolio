@@ -1,5 +1,6 @@
-This is my personal portfolio project which was created with [Create React App](https://github.com/facebook/create-react-app). 
-You can find it live here: https://kgarbos.com/
+This is my personal portfolio project created using [Create React App](https://github.com/facebook/create-react-app). 
+
+Link: https://kgarbos.com/
 
 ## Available Scripts
 

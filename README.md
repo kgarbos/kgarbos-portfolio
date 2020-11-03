@@ -1,4 +1,5 @@
-This is my personal portfolio project which was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio project which was created with [Create React App](https://github.com/facebook/create-react-app). 
+You can see it live here: https://kgarbos.com/
 
 ## Available Scripts
 

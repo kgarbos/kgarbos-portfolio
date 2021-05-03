@@ -10,6 +10,7 @@
     "framer-motion": "^1.11.1",
     "node-sass": "^4.14.0",
     "react": "^16.13.1",
+    "react-animated-slider": "^2.0.0",
     "react-dom": "^16.13.1",
     "react-responsive-carousel": "^3.2.5",
     "react-router-dom": "^5.1.2",

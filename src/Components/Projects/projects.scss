@@ -28,6 +28,21 @@
 		cursor: pointer;
 	}
 
+	.repoButton {
+		margin-bottom: 20px;
+	}
+
+	.spanText {
+		color: $lime-green;
+	}
+
+	.description {
+		color: $light-grey;
+	}
+
+	.previousButton, .nextButton {
+		background-color: $lime-green;
+	}
 }
 
 @media screen and (min-width: 550px) {

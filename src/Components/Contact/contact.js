@@ -3,7 +3,7 @@ import './contact.scss';
 import linkedinicon from '../../Assets/linkedinport.svg';
 import githubicon from '../../Assets/githubport.svg';
 import resumeicon from '../../Assets/resumeport.svg';
-import resume from '../../KGarbos-Resume.pdf';
+import resume from '../../Garbos_Krzysztof_ Resume.pdf';
 import { motion } from 'framer-motion';
 
 const buttonVariants = {

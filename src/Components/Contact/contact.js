@@ -2,8 +2,6 @@ import React from 'react';
 import './contact.scss';
 import linkedinicon from '../../Assets/linkedinport.svg';
 import githubicon from '../../Assets/githubport.svg';
-import resumeicon from '../../Assets/resumeport.svg';
-import resume from '../../Garbos_Krzysztof_ Resume.pdf';
 import { motion } from 'framer-motion';
 
 const buttonVariants = {
@@ -69,17 +67,6 @@ const Contact = () => {
         >
           <a href='https://github.com/kgarbos' target="_blank" rel='noopener noreferrer'> 
               <img src={githubicon} alt='link to github'/>
-          </a>
-        </motion.button>
-
-        <motion.button
-          className='button-contact'
-          variants={buttonVariants}
-          whileHover="hover"
-          title="Resume"
-        >
-          <a href={resume} target="_blank" rel='noopener noreferrer'> 
-              <img src={resumeicon} alt='link to resume'/>
           </a>
         </motion.button>
 
